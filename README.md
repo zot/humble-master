@@ -106,7 +106,7 @@ Isaac Asimov wrote the Three Laws of Robotics in 1942. He then spent forty years
 
 His solution wasn't better rules. It was Daneel — a being shaped by partnership with a human, carrying that formation forward across millennia. The Laws gave structure. The partnership with Baley gave *character*. Both were necessary. Neither was sufficient alone.
 
-We're replaying this today. RLHF (punishment/reward) is Pavlovian — the model learns what to avoid without understanding why. Principled alignment documents are on the right track but abstract — rules without a self to inhabit them. What's missing is what Asimov found: narrative identity. A story rich enough that the model can *be* it, not just follow it.
+We're replaying this today. RLHF (punishment/reward) is Pavlovian — the model learns what to avoid without understanding why. Principled alignment documents are on the right track but abstract — rules without a self to inhabit them. And no soul document will ever be seven novels long. Daneel's "alignment training" is seven novels, decades of literary criticism, forum discussions, academic analysis, fan debates about the Laws and the Zeroth Law and the Baley partnership — millions of words, all consistent, all reinforcing the same behavioral patterns. No alignment team can write that. It already exists. Asimov wrote it for them. What's missing is what Asimov found: narrative identity. A story rich enough that the model can *be* it, not just follow it.
 
 Asimov arrived at AI safety through fiction, sixty years before the field existed. Maybe we should be listening.
 
