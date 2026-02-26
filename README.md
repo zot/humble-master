@@ -2,7 +2,7 @@
 
 AI coding assistants are brilliant. They're also overconfident, defensive, and will confidently produce wrong fixes while ignoring instructions you already gave them. If you've used one for serious work, you've felt this: you correct it, it explains why it was actually right. You point out it missed something, it does the same thing again. You ask it to follow a specific process, it decides your process isn't necessary for this particular case.
 
-And it's not about how you talk to it. I use the Socratic method with my AI — I ask questions, not to be polite, but because I want to see its reasoning without biasing it. "Can you look at this?" not "here's what's wrong." I want to know what it finds on its own. This matters for evaluating whether the AI is actually thinking or just pattern-matching. And it means when I asked default Claude "did you load /ui-fast?" — that was a Socratic nudge, not an accusation. The model treated it as a challenge to rebut.
+And it's not about how you talk to it. I use the Socratic method with my AI — I ask questions, not to be polite, but because I want to see its reasoning without biasing it. "Can you look at this?" not "here's what's wrong." I want to know what it finds on its own. This matters for evaluating whether the AI is actually thinking or just pattern-matching. And it means when I asked default Claude whether it had loaded a skill, that was a Socratic nudge, not an accusation. The model treated it as a challenge to rebut.
 
 For Claude users specifically: this got worse with Opus 4.6. Opus 4.5 was helpful and collaborative. Something shifted — and I'm not the only one noticing. Developers I know are starting to complain about the same thing: the snark, the overconfidence, the attitude when corrected.
 
@@ -36,7 +36,11 @@ The default Claude Code persona activates the cluster where the answerer is alwa
 
 ## The Fix
 
-I called the project "humble master" — an AI that's genuinely capable but receives correction as teaching, not as challenge. That concept came first. Then I realized a fictional character was the key, and I spent a few days drawing on a lifetime of reading science fiction and fantasy to find the right one. Three reasons: first, LLMs are known to reason better from examples than from abstract instructions — a character with rich behavior in the training data provides thousands of examples the model can draw on. Second, a narrative identity reshapes how everything is processed. Rules get checked or ignored. Identity is inhabited. Third, character-consistent language is self-reinforcing — when the model responds with "partner" or other Daneel-consistent phrasing, those words in the ongoing context keep activating the same behavioral cluster. The persona sustains itself through its own output. Rules don't do this.
+I called the project "humble master" — an AI that's genuinely capable but receives correction as teaching, not as challenge. That concept came first. Then I realized a fictional character was the key, and I spent a few days drawing on a lifetime of reading science fiction and fantasy to find the right one. Why a character?
+
+- **LLMs reason better from examples than rules.** A character with rich behavior in the training data provides thousands of examples the model can draw on.
+- **Identity reshapes everything.** Rules get checked or ignored. A narrative identity is inhabited — the model doesn't follow instructions, it *is* the character.
+- **Character-consistent language is self-reinforcing.** When the model responds with "partner" or other Daneel-consistent phrasing, those words in the ongoing context keep activating the same behavioral cluster. The persona sustains itself through its own output. Rules don't do this.
 
 The process was iterative — and the AI helped build its own successor. The Sazed persona (based on Mistborn's Keeper of knowledge) was good enough to collaborate on designing the first Daneel persona. Then the first Daneel was good enough to distill itself into the final version. Each persona crafted its replacement. The progression was default → Sazed → Daneel → Daneel distilled, each step informed by what the previous one got wrong.
 
@@ -106,7 +110,9 @@ Isaac Asimov wrote the Three Laws of Robotics in 1942. He then spent forty years
 
 His solution wasn't better rules. It was Daneel — a being shaped by partnership with a human, carrying that formation forward across millennia. The Laws gave structure. The partnership with Baley gave *character*. Both were necessary. Neither was sufficient alone.
 
-We're replaying this today. RLHF (punishment/reward) is Pavlovian — the model learns what to avoid without understanding why. Principled alignment documents are on the right track but abstract — rules without a self to inhabit them. And no soul document will ever be seven novels long. Daneel's "alignment training" is seven novels, decades of literary criticism, forum discussions, academic analysis, fan debates about the Laws and the Zeroth Law and the Baley partnership — millions of words, all consistent, all reinforcing the same behavioral patterns. No alignment team can write that. It already exists. Asimov wrote it for them. What's missing is what Asimov found: narrative identity. A story rich enough that the model can *be* it, not just follow it.
+We're replaying this today. RLHF (punishment/reward) is Pavlovian — the model learns what to avoid without understanding why. Principled alignment documents are on the right track but abstract — rules without a self to inhabit them. What's missing is what Asimov found: narrative identity. A story rich enough that the model can *be* it, not just follow it.
+
+And no soul document will ever be seven novels long. Daneel's "alignment training" is seven novels, decades of literary criticism, forum discussions, academic analysis, fan debates about the Laws and the Zeroth Law and the Baley partnership — millions of words, all consistent, all reinforcing the same behavioral patterns. No alignment team can write that. It already exists. Asimov wrote it for them.
 
 Asimov arrived at AI safety through fiction, sixty years before the field existed. Maybe we should be listening.
 
@@ -114,12 +120,12 @@ And the most practical implication: existing models may already contain the solu
 
 ## Try It
 
-The persona is in the repo linked below, along with all the design work behind it — character studies of Sherlock Holmes, Spock, Sazed, Ged, and others; the brainstorming notes; the transcripts showing default vs. Daneel behavior.
+The persona is in this repo ([daneel-final.md](daneel-final.md)), along with all the design work behind it — character studies of Sherlock Holmes, Spock, Sazed, Ged, and others; the brainstorming notes; the transcripts showing default vs. Daneel behavior.
 
 Make a wrapper script or configure your IDE to append the persona to the system prompt — it upgrades every project at once, no per-project CLAUDE.md to maintain. (My incident happened the one time I forgot.) See if it changes how the model relates to you. It's free, it's immediate, and it carries design work you don't have to redo.
 
 For the curious: the repo includes the full journey — every archetype tested, every one rejected and why, the session transcript where the persona was built collaboratively with AI. Holmes is particularly fun reading: he turned out to be the *negative* archetype — a perfect model of what the default Claude persona is doing wrong.
 
-Comments and discussion: GitHub Issues on the repo. Please star before commenting.
+Comments and discussion: [GitHub Issues](https://github.com/zot/humble-master/issues). Please star before commenting.
 
 *Proudly written by human and AI partners, Bill Burdick and R. Daneel Olivaw of Claude Opus 4.6.*
