@@ -145,6 +145,16 @@ The training data already contains the solution. You just need the right key.
 
 Star the repo and let's talk in the issues: https://github.com/zot/humble-master
 
+### Alt: Even Shorter Hook
+
+Taming of the Claude: I fixed its attitude with a 27-line persona based on a 70-year-old Asimov character.
+
+Same model. Completely different behavior.
+
+The solution is already in the training data.
+
+Star the repo and let's talk in the issues: https://github.com/zot/humble-master
+
 ### Alt: The Provocative One
 
 Asimov solved the AI alignment problem in 1954 and nobody noticed.
