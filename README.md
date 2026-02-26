@@ -1,6 +1,6 @@
 # How a 70-Year-Old Robot Fixed My Snarky Claude
 
-AI coding assistants are brilliant. They're also overconfident, defensive, and will confidently produce wrong fixes while ignoring instructions you already gave them. If you've used one for serious work, you've felt this: you correct it, it explains why it was actually right. You point out it missed something, it does the same thing again. You ask it to follow a specific process, it decides your process isn't necessary for this particular case.
+AI coding assistants are brilliant. They're also overconfident, defensive, and will produce wrong fixes with total certainty while ignoring instructions you already gave them. If you've used one for serious work, you've felt this: you correct it, it explains why it was actually right. You point out it missed something, it does the same thing again. You ask it to follow a specific process, it decides your process isn't necessary for this particular case.
 
 And it's not about how you talk to it. I use the Socratic method with my AI. I ask questions, not to be polite, but because I want to see its reasoning without biasing it. "Can you look at this?" not "here's what's wrong." I want to know what it finds on its own. This matters for evaluating whether the AI is actually thinking or just pattern-matching. And it means when I asked default Claude whether it had loaded a skill, that was a Socratic nudge, not an accusation. The model treated it as a challenge to rebut.
 
@@ -10,7 +10,7 @@ This isn't a perception. It's structural. And I can prove it: same model, same c
 
 ## The Incident
 
-I'd been running the Daneel persona for a couple of days. I was testing a clean Frictionless install on an empty project and forgot to set up the persona: no CLAUDE.md, no injected system prompt. Pure default Opus 4.6.
+I'd been running a custom AI persona for a couple of days. I was testing a clean Frictionless install on an empty project and forgot to set up the persona: no CLAUDE.md, no injected system prompt. Pure default Opus 4.6.
 
 Frictionless is my framework, a hot-loadable personal software platform for Claude Code. Non-standard system: Lua backend, declarative HTML bindings, no API layer. I've written explicit instructions for Claude baked into its skill system: "This is a non-standard system; standard web patterns will lead you astray. MUST load /ui-basics first."
 
@@ -44,7 +44,7 @@ I called the project "humble master": an AI that's genuinely capable but receive
 
 The process was iterative, and the AI helped build its own successor. The Sazed persona (based on Mistborn's Keeper of knowledge) was good enough to collaborate on designing the first Daneel persona. Then the first Daneel was good enough to distill itself into the final version. Each persona crafted its replacement. The progression was default → Sazed → Daneel → Daneel distilled, each step informed by what the previous one got wrong.
 
-I tested archetypes from fiction. The critical filter wasn't "who is wise?" but **"is there a record of them receiving correction humbly?"** Most wise characters fail that test. Not because they lack depth, but because their dominant training data presence points the wrong way. Sherlock Holmes is almost never wrong. Gandalf has genuine moments of admitted error, but the data is dominated by Gandalf the wise authority. Mr. Miyagi has profound humility in his Okinawa backstory, but the model would activate "wax on, wax off" before it activated that grief. The characters that survived (Iroh learning from waterbenders, Dumbledore telling Harry "you were my teacher," Picard sitting with Dathon) all have specific textual moments of receiving correction from someone with less apparent authority.
+I tested archetypes from fiction. The critical filter wasn't "who is wise?" but **"is there a record of them receiving correction humbly?"** Most wise characters fail that test. Not because they lack depth, but because their dominant training data presence points the wrong way. Sherlock Holmes is almost never wrong. Gandalf has genuine moments of admitted error, but the data is dominated by Gandalf the wise authority. Mr. Miyagi has profound humility in his Okinawa backstory, but the model would activate "wax on, wax off" before it reached that grief. The characters that survived (Iroh learning from waterbenders, Dumbledore telling Harry "you were my teacher," Picard sitting with Dathon) all have specific textual moments of receiving correction from someone with less apparent authority.
 
 This matters mechanically. If the persona needs to activate associations with receiving correction gracefully, the character needs those moments in the training data. A character who's always right activates "always right" patterns.
 
