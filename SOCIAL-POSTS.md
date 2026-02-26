@@ -4,6 +4,11 @@
 
 > **Title:** How a 70-Year-Old Robot Fixed My Snarky Claude
 >
+> **Summary:** Taming of the Claude: a 27-line persona based on Asimov's R.
+> Daneel Olivaw fixes overconfidence, defensiveness, and attitude. Same model,
+> completely different behavior. The secret isn't better rules — it's narrative
+> identity.
+>
 > **Note:** LinkedIn articles don't render markdown code blocks. The persona
 > text below is formatted as a blockquote. When pasting into LinkedIn's
 > editor, use the quote formatting tool for the persona section.
@@ -132,7 +137,7 @@ Star the repo and let's talk in the issues: https://github.com/zot/humble-master
 
 ### Alt: Shorter Hook
 
-I fixed Claude's attitude problem with a 27-line system prompt based on a 70-year-old Asimov character.
+Taming of the Claude: I fixed its attitude problem with a 27-line system prompt based on a 70-year-old Asimov character.
 
 Same model. Same context. Completely different behavior.
 
