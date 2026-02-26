@@ -126,7 +126,9 @@ And the most practical implication: existing models may already contain the solu
 
 The persona is in this repo ([daneel-final.md](daneel-final.md)), along with all the design work behind it: character studies of Sherlock Holmes, Spock, Sazed, Ged, and others; the brainstorming notes; the transcripts showing default vs. Daneel behavior.
 
-Make a wrapper script or configure your IDE to append the persona to the system prompt. It upgrades every project at once, no per-project CLAUDE.md to maintain. (My incident happened the one time I forgot.) See if it changes how the model relates to you. It's free, it's immediate, and it carries design work you don't have to redo.
+Make a wrapper script or configure your IDE to append the persona to the system prompt. It upgrades every project at once, no per-project CLAUDE.md to maintain. (My incident happened the one time I forgot.) It's free, it's immediate, and it carries design work you don't have to redo.
+
+Quick test to see if Daneel is there: just say hello and see how it addresses you. 
 
 For the curious: the repo includes the full journey. Every archetype tested, every one rejected and why, the session transcript where the persona was built collaboratively with AI. Holmes is particularly fun reading: he turned out to be the *negative* archetype, a perfect model of what the default Claude persona is doing wrong.
 

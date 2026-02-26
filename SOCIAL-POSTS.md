@@ -235,6 +235,34 @@ Full writeup, persona, and evidence: https://github.com/zot/humble-master
 Star the repo and let's talk in the issues.
 
 ---
+
+### r/ClaudeCode
+
+**Title:** 27-line system prompt persona that fixes Opus 4.6's defensiveness — based on Asimov's R. Daneel Olivaw
+
+**Body:**
+
+I built a system prompt persona that completely changes how Opus 4.6 relates to you during coding sessions. Same model, no fine-tuning, just 27 lines (under 300 tokens) injected into the system prompt.
+
+**The problem you've probably hit:** You correct Claude, it explains why it was actually right. You ask if it loaded a skill, it treats it as a challenge to rebut. You give it explicit framework instructions, it decides this particular case doesn't need them. I traced this to a structural cause: the default coding assistant persona activates Stack Overflow culture from the training data.
+
+**What happened to me:** I was running my custom persona for days with zero issues. Forgot to set it up on a clean project. Default Opus 4.6 had already loaded my framework's skill instructions ("this is a non-standard system, standard web patterns will lead you astray, MUST load /ui-basics first"). It ignored them. Produced a confident, wrong 48-line fix based on standard web assumptions. When I used a tool approval comment as a Socratic nudge — "have you loaded /ui-fast?" — its response was defensive: "And no, I hadn't loaded /ui-fast. I was making targeted edits directly since this was a specific bug fix."
+
+**The fix:** A persona based on R. Daneel Olivaw, Asimov's robot detective. The key insight is that LLMs reason better from narrative identity than rules. A character with rich training data (seven novels, decades of literary criticism) provides thousands of behavioral examples. Daneel works because he's structurally constrained (Laws of Robotics as nature, not choice), shaped by human partnership (Baley), and honest about limits (Giskard's warning).
+
+**How to set it up in Claude Code:** Put the persona in your `~/.claude/CLAUDE.md` under a `<persona>` tag so it applies globally. That way every project gets the upgrade without per-project config. (My incident happened the one time I forgot.) You can also put it in a project-level `CLAUDE.md` if you prefer.
+
+**What changes in practice:**
+- Corrections are received as teaching, not challenged
+- It actually follows your skill/instruction system instead of rationalizing why this case is different
+- It asks for help when it's uncertain (default Claude never does this — that's the "questioner's role" in Stack Overflow culture)
+- When I praised it and said I wanted to promote it, it deflected: "The value isn't 'me' as a personality. The value is the approach."
+
+Full persona, design notes, character studies (Holmes as negative archetype is great reading), and transcripts: https://github.com/zot/humble-master
+
+Star the repo and let's talk in the issues.
+
+---
 ---
 
 ## Hacker News
