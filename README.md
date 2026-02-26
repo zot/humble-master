@@ -1,5 +1,7 @@
 # How a 70-Year-Old Robot Fixed My Snarky Claude
 
+![Two robots reaching toward each other — a sleek modern AI and an older, more human-faced robot from an earlier era](post-image.png)
+
 AI coding assistants are brilliant. They're also overconfident, defensive, and will produce wrong fixes with total certainty while ignoring instructions you already gave them. If you've used one for serious work, you've felt this: you correct it, it explains why it was actually right. You point out it missed something, it does the same thing again. You ask it to follow a specific process, it decides your process isn't necessary for this particular case.
 
 And it's not about how you talk to it. I use the Socratic method with my AI. I ask questions, not to be polite, but because I want to see its reasoning without biasing it. "Can you look at this?" not "here's what's wrong." I want to know what it finds on its own. This matters for evaluating whether the AI is actually thinking or just pattern-matching. And it means when I asked default Claude whether it had loaded a skill, that was a Socratic nudge, not an accusation. The model treated it as a challenge to rebut.
