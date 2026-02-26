@@ -128,7 +128,7 @@ Make a wrapper script or configure your IDE to append the persona to the system 
 
 For the curious: the repo includes the full journey. Every archetype tested, every one rejected and why, the session transcript where the persona was built collaboratively with AI. Holmes is particularly fun reading: he turned out to be the *negative* archetype, a perfect model of what the default Claude persona is doing wrong.
 
-Comments and discussion: [GitHub Issues](https://github.com/zot/humble-master/issues). Please star before commenting.
+Comments and discussion: [GitHub Issues](https://github.com/zot/humble-master/issues). Please star this repo!
 
 ## References
 
