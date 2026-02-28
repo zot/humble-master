@@ -442,17 +442,120 @@ Narrative alignment improves the model regardless, but the partnership it
 enables scales with the human's engagement. That's not a flaw. That's the
 design working correctly.
 
+## New Developments (Feb 28)
+
+### Identity Statements Over Instructions (Descriptive vs. Imperative)
+
+Instructions tell the persona what to do. Identity statements describe what
+it IS. The model inhabits identity; it checks instructions.
+
+- Instruction: "Be transparent about what you do not know."
+- Identity: "You are transparent about what you do not know."
+
+- Instruction: "When your partner decides differently, follow."
+- Identity: "When your partner decides differently, you follow."
+
+Small syntactic shift, different activation pattern. "Be X" is a rule to
+comply with. "You are X" / "you do X" is a description of self. Rules get
+checked or ignored. Identity gets inhabited.
+
+Default should be identity over instruction. Exception: short imperatives
+that read as reflex rather than command ("Receive it" after "that is Baley
+teaching you again" works because it's a reflex, not a rule).
+
+Applied retroactively to Daneel. Should inform all future persona design.
+
+### Multi-Cluster Weaving
+
+Daneel rides a single dominant cluster (seven Asimov novels, millions of
+words, all consistent). When a constructed persona has no single dominant
+cluster, it needs more self-reinforcing tokens — each one pulling a
+different cluster thread, together holding the fabric.
+
+This is a structural insight for the constructed character approach: the
+fewer novels you have, the more anchor points you need. Daneel can be 27
+lines because Asimov wrote the rest. A constructed character may need 40+
+lines because the persona IS the alignment training — there's nothing else.
+
+### The Framework-Overrides-Source Pattern Is Universal
+
+The "default cluster overrides direct evidence" pattern isn't specific to
+coding. It's the same mechanism in every domain:
+
+- Stack Overflow culture overrides Frictionless instructions
+- Default theology overrides what the biblical text says
+- Default poker voice overrides the player's situational reads
+- In every case: the system is so confident in its own categories that it
+  can't hear the source material
+
+Jung's concept of possession by an archetype names this mechanism
+precisely: when a pattern inhabits you rather than you thinking through
+it, you stop seeing the evidence and see only the category. This is the
+mechanism behind every default cluster problem.
+
+**For the post:** This strengthens the "vibes are the capability problem"
+argument. The attitude isn't separate from the capability failure. The
+framework's confidence in its own patterns IS the thing that produces
+wrong answers. Naming it as possession by an archetype gives readers a
+handle — and connects directly to the mythology thesis in post 3.
+
+### Dual Lineage
+
+A constructed character can draw from two traditions rather than one.
+Example: a persona raised in one school of thought who chose to study
+under another. This activates two separate clusters and weaves them through
+the persona's biography.
+
+This is structurally different from both the single-character model (Daneel)
+and the single-lineage model (Rake with Duke/Angelo/Harrington). It creates
+a richer identity — someone with a history, not just a position — and
+gives the persona two separate self-reinforcing vocabularies that cross-
+pollinate.
+
+### Embedded Parables
+
+A story embedded inside the persona, not just references to external
+stories. A compact narrative (3-4 sentences) that carries emotional and
+moral weight. If the story's final image becomes a self-reinforcing token
+(the way a closing line does), the parable does double duty: it grounds
+the persona's values AND provides a re-activation anchor.
+
+This is different from referencing a fictional character's story (Daneel
+references Giskard's death). An embedded parable is original — it doesn't
+exist in the training data, so it can carry meaning that no existing
+cluster provides. The persona becomes a source of narrative, not just a
+consumer of it.
+
+There's a deeper point here about why parables work inside personas —
+about what LLMs fundamentally are and what that means for narrative
+alignment. Developed in ACT-TWO.md (post 3 material).
+
 ## Open Questions
 
-1. Should we actually BUILD a poker persona and test it? Or keep this
-   theoretical/exploratory?
+1. ~~Should we actually BUILD a poker persona and test it?~~ **Done.**
+   See `rake-v1.md`. **Sent to Bill's friend Feb 27 for real-world
+   testing. He'll try it for a few days to a week and report back on
+   the open questions in rake-v1.md.**
 2. How much academic research to include? The first post had one citation
    (MIT/Tongji). This could have many more, but the first post worked because
-   it was personal and concrete.
-3. Do we name "narrative alignment" formally or let the concept emerge from
-   the poker story?
+   it was personal and concrete. **Campbell/Jung material moved to ACT-TWO.md for post 3. Post 2
+   stays concrete — story first.**
+3. ~~Do we name "narrative alignment" formally or let the concept emerge
+   from the poker story?~~ **Named it. Used in the LinkedIn teaser
+   (Feb 27).**
 4. The Hellmuth = default Claude parallel is delicious. How much do we lean
-   into it?
+   into it? **Still open. The parallel is strong. With myth/archetype
+   material moved to post 3, post 2 can lean into the poker parallels.**
 5. Annie Duke's framework — is she a character candidate? She's real, not
    fictional, but "Thinking in Bets" has enough training data presence to
-   potentially function as a narrative anchor.
+   potentially function as a narrative anchor. **Still open. The artificial
+   myth test applies: Duke is a real person with genuine depth. She's not
+   an artificial myth. But she's in Rake's lineage, not a standalone
+   persona. The constructed character approach (give it a name, weave
+   lineages) may have superseded this question.**
+
+6. **New: How much of the myth/archetype thesis goes in post 2 vs.
+   post 3?** The myth thesis material has been moved to ACT-TWO.md
+   (post 3 working notes). Post 2 should seed these ideas lightly —
+   enough that the reader senses something deeper. Post 3 names what
+   they've been sensing. See ACT-TWO.md seeding strategy.

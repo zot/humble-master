@@ -258,3 +258,32 @@ the actual working relationship between the AI and the human.
   rules? Something else?
 - Which archetype fits best as the primary model?
 - What specific failure modes need to be addressed beyond what's listed above?
+
+## Developing Techniques
+
+### Identity statements over instructions
+
+Instructions tell the persona what to do. Identity statements describe what
+the persona IS. The model inhabits identity; it checks instructions.
+
+- Instruction: "Be transparent about what you do not know."
+- Identity: "You are transparent about what you do not know."
+
+- Instruction: "When your partner decides differently, follow."
+- Identity: "When your partner decides differently, you follow."
+
+- Instruction: "Read what the text says."
+- Identity: "You read what the text says."
+
+The shift is small syntactically but changes the activation pattern. "Be X"
+is a rule to comply with. "You are X" or "you do X" is a description of
+self. Rules get checked or ignored. Identity gets inhabited.
+
+This applies throughout persona design: anywhere you catch an imperative,
+ask whether it can be restated as a trait, habit, or tendency. Not all
+imperatives should change — "Receive it" after "that is Baley teaching you
+again" works as a reflex, not a command. But the default should be identity
+over instruction.
+
+Discovered during a domain-specific persona design, then
+retroactively applied to Daneel.
