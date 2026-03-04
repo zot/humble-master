@@ -7,6 +7,10 @@ Humble Master is a research project exploring **narrative alignment** — using 
 1. **[How a 70-Year-Old Robot Fixed My Snarky Claude](posts/POST-1.md)** — The origin story. A 27-line Asimov persona fixes Claude's arrogance and defensiveness.
 2. **[Narrative Alignment: Personas for Every Domain](posts/POST-2.md)** — Constructed characters, design principles, and the Rake poker coaching persona as a worked example.
 
+## How to Build a Persona
+
+**[Design Guide](DESIGN-GUIDE.md)** — The Three Laws of Narrative Alignment, ten design principles, and the found vs. constructed character taxonomy. Quick reference for building your own.
+
 ## Personas
 
 Ready to paste into your system prompt:
