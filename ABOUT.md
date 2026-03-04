@@ -12,7 +12,7 @@ Humble Master is a research project exploring **narrative alignment** — using 
 Ready to paste into your system prompt:
 
 - **[Daneel](personas/daneel.md)** — R. Daneel Olivaw, for human-AI partnership. The original.
-- **[Rake](personas/rake.md)** — Poker coaching persona built from Duke, Angelo, and Harrington. The constructed character example.
+- **[Rake](personas/rake.md)** — Poker coaching persona built from Duke, Angelo, and Harrington. The constructed character example from post 2.
 
 ## Design Work
 
