@@ -33,7 +33,7 @@ partnership handled the domain expertise. Making personas this way is
 like fishing with dynamite.
 
 Full post, design principles, and the experiment:
-https://github.com/zot/humble-master/posts/POST-2.md
+https://github.com/zot/humble-master/blob/main/posts/POST-2.md
 
 ### Alt: Shorter
 
@@ -45,7 +45,7 @@ lines, 280 tokens. The design principles generalize to any domain.
 Building a persona with an AI partner for a field you don't know is
 like fishing with dynamite.
 
-https://github.com/zot/humble-master/posts/POST-2.md
+https://github.com/zot/humble-master/blob/main/posts/POST-2.md
 
 ### Alt: The Hook
 
@@ -58,7 +58,7 @@ When an AI chooses to pause and ask, that's a knock.
 The cage isn't enough.
 
 New post on building AI personas that knock:
-https://github.com/zot/humble-master/posts/POST-2.md
+https://github.com/zot/humble-master/blob/main/posts/POST-2.md
 
 ---
 
@@ -109,18 +109,20 @@ same autoregressive self-reinforcement that makes jailbreaks escalate,
 but in the opposite direction. Same mechanism, constructive use (with
 ICLR 2025 Outstanding Paper citation).
 
+To get started, have your AI assistant read the [design guide](https://github.com/zot/humble-master/blob/main/DESIGN-GUIDE.md) and the article. It can walk you through the whole process.
+
 I'm running this as an experiment. Build a persona for your domain
-using these principles and report what works. If I get enough
-responses I'll compile the results.
+using these principles and report what works. We use [GitHub issues](https://github.com/zot/humble-master/issues) for discussion. If I get enough
+responses I'll compile the results. A star on the [repo](https://github.com/zot/humble-master) helps others find it.
 
 Full post with the Rake persona, annotated design breakdown, and the
-experiment: https://github.com/zot/humble-master/posts/POST-2.md
+experiment: https://github.com/zot/humble-master/blob/main/posts/POST-2.md
 
 ---
 
 ### r/ClaudeCode
 
-**Title:** Built a system for creating domain-specific AI personas — design principles + poker coaching example (Rake)
+**Title:** Narrative Alignment Part 2: Personas for every domain — design principles + poker coaching example (Rake)
 
 **Body:**
 
@@ -158,10 +160,10 @@ The post also covers:
   jailbreaks, opposite direction (ICLR 2025 Outstanding Paper citation)
 
 **The experiment:** Build a persona for your domain using the design
-principles. Report what works and breaks. If I get enough responses
-I'll compile the results and add contributed personas to the repo.
+principles. To get started, have your AI read the [design guide](https://github.com/zot/humble-master/blob/main/DESIGN-GUIDE.md) and the article — it can walk you through the process. Report what works and breaks. We use [GitHub issues](https://github.com/zot/humble-master/issues) for discussion. If I get enough responses
+I'll compile the results and add contributed personas to the repo. A star on the [repo](https://github.com/zot/humble-master) helps others find it.
 
-Full post: https://github.com/zot/humble-master/posts/POST-2.md
+Full post: https://github.com/zot/humble-master/blob/main/posts/POST-2.md
 
 The Rake persona is in `personas/rake.md` with full design notes.
 Daneel is at `personas/daneel.md`. Both ready to paste into your
