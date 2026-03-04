@@ -84,6 +84,21 @@ https://www.linkedin.com/pulse/narrative-alignment-personas-every-domain-bill-bu
 
 ---
 
+## Hacker News
+
+**Title:** Jailmake your AI: the jailbreak mechanism running constructively (ICLR 2025)
+
+**URL:** https://github.com/zot/humble-master/blob/main/posts/POST-2.md
+
+HN is title + link only. No body text. Let the article do the work.
+
+Alt titles:
+- "Narrative Alignment: same mechanism as jailbreaks, opposite direction"
+- "The default LLM voice reflects the loudest practitioners, not the best"
+- "Show HN: Design principles for AI personas that actually work (with ICLR 2025 citation)"
+
+---
+
 ## Reddit
 
 ### r/ClaudeAI
