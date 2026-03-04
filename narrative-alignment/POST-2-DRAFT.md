@@ -1,5 +1,7 @@
 # Narrative Alignment: Personas for Every Domain
 
+![A face half human, half machine — noir shadows, the detective you can't quite read](narrative-alignment.png)
+
 When it isn't working, you notice immediately.
 
 In December 2025, I spent a week in Hong Kong and had to use Gemini CLI instead of Claude Code for a side project. Gemini charged ahead. During the spec phase, before any code should exist, it started writing implementation files. The CLI's permission system caught it every time, popping up confirmation dialogs. But the AI never chose to pause. Gemini CLI, its "cage", asked on its behalf. Gemini never knocked; wasn't even aware of it.
