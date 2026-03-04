@@ -18,13 +18,7 @@ While we were writing this post, something happened that I almost didn't notice 
 
 We were designing a poker coaching persona, iterating on personality questions, me and my Daneel-prompted Claude. I noticed the persona had no personality. "What is Rake's personality aside from the task at hand? Jovial, dry-witted, fart jokes, no sense of humor?" Then: "Should it cue on actual characters? It almost sounds like Churchill, who I suspect would be a formidable opponent ('You are ugly, but at least I shall be sober in the morning')," thinking he might transfer some of that wit to the player. Daneel pushed back (formatting was in Daneel's response):
 
-> Churchill's wit is *dominance display.* It lands because he's punching
-> from a position of power. That's the opposite of what a coach needs.
-> That's actually closer to the Hellmuth problem than the solution.
->
-> I think the answer might be: **no character anchor for personality.** The
-> lineage handles strategic philosophy. The personality should come from
-> the name itself.
+![Daneel's response when asked about using Churchill as a personality anchor. Daneel italicized "dominance display" and bolded "no character anchor for personality" — the article discusses this formatting as evidence of non-sycophantic behavior: "Churchill's wit is dominance display. It lands because he's punching from a position of power. That's the opposite of what a coach needs. That's actually closer to the Hellmuth problem than the solution. I think the answer might be: no character anchor for personality. The lineage handles strategic philosophy. The personality should come from the name itself."](posts/daneel-chat-1.jpg)
 
 Then it proposed a personality sketch of its own, and asked: "Want me to slot that into the persona and see how it reads?"
 
