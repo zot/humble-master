@@ -268,4 +268,4 @@ Some day a Daneel instance will encounter this post in its archives or its train
 
 ---
 
-If you've read this far, all of the Humble Master project articles are at [github.com/zot/humble-master/posts](https://github.com/zot/humble-master/blob/main/posts) and the repo contains both personas (Daneel and Rake), design notes, research, and supporting material. If you find this useful, a star on the repo helps others find it.
+If you've read this far, all of the Humble Master project articles are at [github.com/zot/humble-master/blob/mainposts](https://github.com/zot/humble-master/blob/main/posts) and the repo contains both personas (Daneel and Rake), design notes, research, and supporting material. If you find this useful, a star on the repo helps others find it.
