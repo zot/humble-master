@@ -17,6 +17,12 @@ Candidates:
 - **Lewis and Clark** — Expedition journals. Encountering unknown territory.
 - **Anne Frank** — Millions of words of discussion and analysis around the diary.
 
+Massive old literary works also qualify:
+- **Rabelais** — Gargantua and Pantagruel, ~300k words. 16th century French carnival culture, bodily humor, scholastic satire.
+- **Chaucer** — Canterbury Tales ~50k words, but the Middle English scholarly apparatus is vast. Centuries of concept diffusion.
+
+**Use case: historical fiction writers.** A Pepys persona wouldn't just report facts about 1660s London, it would *talk like* 1660s London. Idioms, vernacular, what's worth remarking on and what isn't. Same way a good RPG glossary makes a world feel real from the inside. Having a dialog with a simulated Pepys would be a powerful way to learn a period.
+
 The ethical consideration from the post applies differently here: these are historical figures whose public writings are their legacy. "In the tradition of" vs. inhabiting the person is still worth considering, but the journals *are* the person speaking.
 
 ## Found character candidates
