@@ -1,3 +1,5 @@
+> **[About this repository](ABOUT.md)** — what's here, how to use the personas, and the full post series.
+
 # How a 70-Year-Old Robot Fixed My Snarky Claude
 
 ![Two robots reaching toward each other — a sleek modern AI and an older, more human-faced robot from an earlier era](post-image.png)
