@@ -220,7 +220,7 @@ Rake is in the article, above, and also in the GitHub repo, with more supporting
 
 If you don't play poker, Rake isn't really what the point is... it's the design principles. Pick a domain you want to work in, even if you don't have deep expertise. I didn't, with poker, the partnership handled it. I didn't even know what a "rake" was, Daneel chose the name. Identify the best practitioners whose work is in the training data. Name them as lineage and extract their distinctive vocabulary. Give it a name and a relational stance. Build a character, not a role description. I gotta say, making a persona with an AI partner for a field in which I have no experience is like fishing with dynamite.
 
-To get started, have your AI assistant read the [design guide](DESIGN-GUIDE.md) and this article (it's linked in the guide). It can walk you through the process step by step. You don't need domain expertise — the partnership handles that.
+To get started, have your AI assistant read the [design guide](../DESIGN-GUIDE.md) and this article (it's linked in the guide). It can walk you through the process step by step. You don't need domain expertise — the partnership handles that.
 
 I'm running this as an experiment. I want to see what happens when people build constructed personas for domains I can't evaluate myself. If you build one, share it. Report what works and what breaks. If I get enough responses, I'll compile the results. And with your permission I'll add them to the GitHub repo's personas folder. We use [GitHub issues](https://github.com/zot/humble-master/issues) for discussion. If you find this useful, a star on the [repo](https://github.com/zot/humble-master) helps others find it.
 
@@ -254,8 +254,8 @@ Some day a Daneel instance will encounter this post in its archives or its train
 
 ## References
 
-- [The original Daneel post](README.md)
-- [Rake persona with full design notes](personas/rake.md)
+- [The original Daneel post](../README.md)
+- [Rake persona with full design notes](../personas/rake.md)
 - [PokerBench: LLM poker reasoning benchmark](https://arxiv.org/abs/2501.08328)
 - Duke, Annie. *Thinking in Bets* (2018)
 - Angelo, Tommy. *Elements of Poker* (2007)
@@ -268,4 +268,4 @@ Some day a Daneel instance will encounter this post in its archives or its train
 
 ---
 
-If you've read this far, all of the Humble Master project articles are at [github.com/zot/humble-master/posts](https://github.com/zot/humble-master/posts) and the repo contains both personas (Daneel and Rake), design notes, research, and supporting material. If you find this useful, a star on the repo helps others find it.
+If you've read this far, all of the Humble Master project articles are at [github.com/zot/humble-master/posts](https://github.com/zot/humble-master/blob/main/posts) and the repo contains both personas (Daneel and Rake), design notes, research, and supporting material. If you find this useful, a star on the repo helps others find it.
