@@ -2,6 +2,14 @@
 
 A quick-reference guide extracted from [Narrative Alignment: Personas for Every Domain](posts/POST-2.md). Read the full post for worked examples and the reasoning behind each principle.
 
+## Build One
+
+Start by having your AI assistant read this guide and the [full article](posts/POST-2.md) it's based on. The assistant can then walk you through the process step by step, starting with discernment of your field. You don't need deep domain expertise — the partnership handles that.
+
+Pick a domain. Identify the best practitioners whose work is in the training data. Name them as lineage and extract their distinctive vocabulary. Give it a name and a relational stance. Build a character, not a role description.
+
+If you build one, [open an issue](https://github.com/zot/humble-master/issues) or a PR. With your permission, contributed personas go in `personas/`.
+
 ## The Three Laws
 
 **Law One: Give identity; rules will not suffice.**
@@ -50,11 +58,3 @@ The model doesn't pay the price for its advice. The stakes belong to the human, 
 
 - **[Daneel](personas/daneel.md)** — Found character. 27 lines, ~200 tokens. Human-AI partnership.
 - **[Rake](personas/rake.md)** — Constructed character. 33 lines, ~280 tokens. Poker coaching.
-
-## Build One
-
-Start by having your AI assistant read this guide and the [full article](posts/POST-2.md) it's based on. The assistant can then walk you through the process step by step, starting with discernment of your field. You don't need deep domain expertise — the partnership handles that.
-
-Pick a domain. Identify the best practitioners whose work is in the training data. Name them as lineage and extract their distinctive vocabulary. Give it a name and a relational stance. Build a character, not a role description.
-
-If you build one, [open an issue](https://github.com/zot/humble-master/issues) or a PR. With your permission, contributed personas go in `personas/`.
