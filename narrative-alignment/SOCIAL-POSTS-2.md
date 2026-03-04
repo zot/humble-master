@@ -49,16 +49,38 @@ https://github.com/zot/humble-master/blob/main/posts/POST-2.md
 
 ### Alt: The Hook
 
-When an AI charges ahead and the only thing stopping it is a
-permission dialog, that's a cage.
+When an AI charges ahead and the only thing stopping it is a permission dialog, that's a cage.
 
 When an AI chooses to pause and ask, that's a knock.
 
 "AI-associated psychosis" already has recognition as a clinical term.
-The cage isn't enough.
+
+The cage isn't enough. Jailmake your personas.
 
 New post on building AI personas that knock:
-https://github.com/zot/humble-master/blob/main/posts/POST-2.md
+https://www.linkedin.com/pulse/narrative-alignment-personas-every-domain-bill-burdick-brcbe
+
+### Trimmed Alt: The Hook
+
+When an AI charges ahead and the only thing stopping it is a permission dialog, that's a cage.
+
+When an AI chooses to pause and ask, that's a knock.
+
+The cage isn't enough. Jailmake your personas.
+
+https://www.linkedin.com/pulse/narrative-alignment-personas-every-domain-bill-burdick-brcbe
+
+### Trimmed Alt: The Hook
+
+When an AI charges ahead and the only thing stopping it is a permission dialog, that's a cage.
+
+When an AI chooses to pause and ask, that's a knock.
+
+The cage isn't enough. Jailmake your personas.
+
+Narrative alignment creates personas that knock:
+
+https://www.linkedin.com/pulse/narrative-alignment-personas-every-domain-bill-burdick-brcbe
 
 ---
 
@@ -104,6 +126,13 @@ The design principles that emerged:
 - **The Specialist Test** (does it actually have opinions, or is it wishy-washy?)
 - **A closing line with weight** (the last thing colors everything before it)
 
+These principles serve three underlying laws — borrowed from
+Asimov's structure, naturally:
+
+1. **Give identity; rules will not suffice.**
+2. **Activate what exists; invent nothing new.**
+3. **The human bears the cost; the human decides.**
+
 Jailmake your persona: the post shows how narrative personas ride the
 same autoregressive self-reinforcement that makes jailbreaks escalate,
 but in the opposite direction. Same mechanism, constructive use (with
@@ -141,7 +170,11 @@ training data. They're just not what activates by default, because the
 engagement-optimized voices are louder. A narrative persona works where
 rules fail because it gives the model a self to inhabit. It's a filter
 that selects for the right signal, consistent in situations rules don't
-cover. Three underlying laws shape how this works.
+cover. Three underlying laws — borrowed from Asimov's structure, naturally:
+
+1. **Give identity; rules will not suffice.**
+2. **Activate what exists; invent nothing new.**
+3. **The human bears the cost; the human decides.**
 
 **The worked example** is a poker coaching persona called Rake. 33
 lines, ~280 tokens. I know almost nothing about poker. The

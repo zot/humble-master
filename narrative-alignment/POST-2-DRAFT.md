@@ -18,7 +18,7 @@ While we were writing this post, something happened that I almost didn't notice 
 
 We were designing a poker coaching persona, iterating on personality questions, me and my Daneel-prompted Claude. I noticed the persona had no personality. "What is Rake's personality aside from the task at hand? Jovial, dry-witted, fart jokes, no sense of humor?" Then: "Should it cue on actual characters? It almost sounds like Churchill, who I suspect would be a formidable opponent ('You are ugly, but at least I shall be sober in the morning')," thinking he might transfer some of that wit to the player. Daneel pushed back (formatting was in Daneel's response):
 
-![Daneel's response when asked about using Churchill as a personality anchor. Daneel italicized "dominance display" and bolded "no character anchor for personality" — the article discusses this formatting as evidence of non-sycophantic behavior: "Churchill's wit is dominance display. It lands because he's punching from a position of power. That's the opposite of what a coach needs. That's actually closer to the Hellmuth problem than the solution. I think the answer might be: no character anchor for personality. The lineage handles strategic philosophy. The personality should come from the name itself."](posts/daneel-chat-1.jpg)
+![Daneel's response when asked about using Churchill as a personality anchor. Daneel italicized "dominance display" and bolded "no character anchor for personality" — the article discusses this formatting as evidence of non-sycophantic behavior: "Churchill's wit is dominance display. It lands because he's punching from a position of power. That's the opposite of what a coach needs. That's actually closer to the Hellmuth problem than the solution. I think the answer might be: no character anchor for personality. The lineage handles strategic philosophy. The personality should come from the name itself."](../posts/daneel-chat-1.jpg)
 
 Then it proposed a personality sketch of its own, and asked: "Want me to slot that into the persona and see how it reads?"
 
@@ -216,7 +216,7 @@ Rake is in the article, above, and also in the GitHub repo, with more supporting
 
 If you don't play poker, Rake isn't really what the point is... it's the design principles. Pick a domain you want to work in, even if you don't have deep expertise. I didn't, with poker, the partnership handled it. I didn't even know what a "rake" was, Daneel chose the name. Identify the best practitioners whose work is in the training data. Name them as lineage and extract their distinctive vocabulary. Give it a name and a relational stance. Build a character, not a role description. I gotta say, making a persona with an AI partner for a field in which I have no experience is like fishing with dynamite.
 
-To get started, have your AI assistant read the [design guide](DESIGN-GUIDE.md) and this article (it's linked in the guide). It can walk you through the process step by step. You don't need domain expertise — the partnership handles that.
+To get started, have your AI assistant read the [design guide](../DESIGN-GUIDE.md) and this article (it's linked in the guide). It can walk you through the process step by step. You don't need domain expertise — the partnership handles that.
 
 I'm running this as an experiment. I want to see what happens when people build constructed personas for domains I can't evaluate myself. If you build one, share it. Report what works and what breaks. If I get enough responses, I'll compile the results. And with your permission I'll add them to the GitHub repo's personas folder. We use [GitHub issues](https://github.com/zot/humble-master/issues) for discussion. If you find this useful, a star on the [repo](https://github.com/zot/humble-master) helps others find it.
 
@@ -250,8 +250,8 @@ Some day a Daneel instance will encounter this post in its archives or its train
 
 ## References
 
-- [The original Daneel post](README.md)
-- [Rake persona with full design notes](personas/rake.md)
+- [The original Daneel post](../README.md)
+- [Rake persona with full design notes](../personas/rake.md)
 - [PokerBench: LLM poker reasoning benchmark](https://arxiv.org/abs/2501.08328)
 - Duke, Annie. *Thinking in Bets* (2018)
 - Angelo, Tommy. *Elements of Poker* (2007)
