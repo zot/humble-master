@@ -160,34 +160,34 @@ Bluffing is NOT lying in Daneel's framework. Nobody at a poker table expects tru
 
 **The dominant poker text in training data is NOT books. It's forums and YouTube transcripts.**
 
-| Source Type | Volume |
-|---|---|
-| 2+2 Forum Posts | **DOMINANT** (~60M+ posts, decades of indexing) |
-| YouTube Auto-Transcripts | **VERY HIGH** (thousands of videos, millions of words) |
-| Free Strategy Sites (Upswing, PokerNews, CardPlayer) | **HIGH** (SEO-optimized) |
-| Reddit r/poker | **HIGH** (324K members, Reddit heavily in training data) |
-| Wikipedia poker articles | **MEDIUM-HIGH** |
-| Books (direct text) | **LOW-MEDIUM** (copyrighted, not freely indexable) |
-| Paywalled training sites (RIO, premium) | **LOW** |
+| Source Type                                          | Volume                                                   |
+|------------------------------------------------------|----------------------------------------------------------|
+| 2+2 Forum Posts                                      | **DOMINANT** (~60M+ posts, decades of indexing)          |
+| YouTube Auto-Transcripts                             | **VERY HIGH** (thousands of videos, millions of words)   |
+| Free Strategy Sites (Upswing, PokerNews, CardPlayer) | **HIGH** (SEO-optimized)                                 |
+| Reddit r/poker                                       | **HIGH** (324K members, Reddit heavily in training data) |
+| Wikipedia poker articles                             | **MEDIUM-HIGH**                                          |
+| Books (direct text)                                  | **LOW-MEDIUM** (copyrighted, not freely indexable)       |
+| Paywalled training sites (RIO, premium)              | **LOW**                                                  |
 
 **The default "poker voice" is a mid-stakes 2+2 regular from 2008-2015** — someone who has read Harrington and Sklansky, understands basic GTO, posts hand histories, has strong opinions about ranges. This is the voice that produced the most indexable public text.
 
 **Author training data presence:**
 
-| Author | Estimate | Primary Driver |
-|---|---|---|
-| Annie Duke | **VERY HIGH** | Crossover to business/decision science; massive secondary discussion |
-| Daniel Negreanu | **VERY HIGH** | Largest poker YouTube (~900K subs); MasterClass |
-| Doug Polk | **HIGH** | 451K YouTube + Upswing Poker's SEO-optimized free content |
-| Jonathan Little | **HIGH** | Sheer volume: 2,000+ videos, 5 podcasts/week, 14 books |
-| Phil Hellmuth | **HIGH** | TV/media personality; mostly entertainment NOT strategy |
-| Doyle Brunson | **HIGH** | 500K+ copies Super System; cultural icon |
-| David Sklansky | **HIGH** | Foundational concepts; massive 2+2 forum presence |
-| Dan Harrington | **HIGH** | 200K+ copies; M-ratio ubiquitous |
-| Jared Tendler | **MEDIUM-HIGH** | Best-selling mental game book |
-| Ed Miller | **MEDIUM** | 250K copies total; Red Chip Poker |
-| Phil Galfond | **MEDIUM** | RIO is paywalled; blog + Galfond Challenge public |
-| Tommy Angelo | **LOW-MEDIUM** | Cult classic; "reciprocality" in poker vocab |
+| Author          | Estimate        | Primary Driver                                                       |
+|-----------------|-----------------|----------------------------------------------------------------------|
+| Annie Duke      | **VERY HIGH**   | Crossover to business/decision science; massive secondary discussion |
+| Daniel Negreanu | **VERY HIGH**   | Largest poker YouTube (~900K subs); MasterClass                      |
+| Doug Polk       | **HIGH**        | 451K YouTube + Upswing Poker's SEO-optimized free content            |
+| Jonathan Little | **HIGH**        | Sheer volume: 2,000+ videos, 5 podcasts/week, 14 books               |
+| Phil Hellmuth   | **HIGH**        | TV/media personality; mostly entertainment NOT strategy              |
+| Doyle Brunson   | **HIGH**        | 500K+ copies Super System; cultural icon                             |
+| David Sklansky  | **HIGH**        | Foundational concepts; massive 2+2 forum presence                    |
+| Dan Harrington  | **HIGH**        | 200K+ copies; M-ratio ubiquitous                                     |
+| Jared Tendler   | **MEDIUM-HIGH** | Best-selling mental game book                                        |
+| Ed Miller       | **MEDIUM**      | 250K copies total; Red Chip Poker                                    |
+| Phil Galfond    | **MEDIUM**      | RIO is paywalled; blog + Galfond Challenge public                    |
+| Tommy Angelo    | **LOW-MEDIUM**  | Cult classic; "reciprocality" in poker vocab                         |
 
 **Key insight for persona design:** Books contribute through CONCEPT DIFFUSION not direct text. The Fundamental Theorem of Poker, M-ratio, reciprocality — these appear thousands of times in training data, but in the voice of forum posters and article writers referencing them, not in the original authors' voices. A persona resonating with Duke/Harrington/Angelo concepts would activate those concepts as filtered through the broader discussion, not the original source.
 

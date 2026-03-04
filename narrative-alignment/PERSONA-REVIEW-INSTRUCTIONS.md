@@ -8,7 +8,7 @@ be given to a real person (the author's friend) for a week-long experiment.
 Read these files in order:
 1. `narrative-alignment/BRAINSTORMING.md` — the full brainstorming doc with
    the persona sketch, design rationale, and thesis
-2. `daneel-final.md` — the Daneel persona this approach is modeled on
+2. `personas/daneel.md` — the Daneel persona this approach is modeled on
 3. `README.md` — the original post explaining why Daneel works
 
 ## What We Need

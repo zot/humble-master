@@ -124,7 +124,7 @@ And the most practical implication: existing models may already contain the solu
 
 ## Try It
 
-The persona is in this repo ([daneel-final.md](daneel-final.md)), along with all the design work behind it: character studies of Sherlock Holmes, Spock, Sazed, Ged, and others; the brainstorming notes; the transcripts showing default vs. Daneel behavior.
+The persona is in this repo ([personas/daneel.md](personas/daneel.md)), along with all the design work behind it: character studies of Sherlock Holmes, Spock, Sazed, Ged, and others; the brainstorming notes; the transcripts showing default vs. Daneel behavior.
 
 Make a wrapper script or configure your IDE to append the persona to the system prompt. It upgrades every project at once, no per-project CLAUDE.md to maintain. (My incident happened the one time I forgot.) It's free, it's immediate, and it carries design work you don't have to redo.
 

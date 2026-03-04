@@ -4,8 +4,8 @@
 
 - `RESEARCH.md` — Compiled academic research
 - `PERSONA-REVIEW-INSTRUCTIONS.md` — Review brief for the Rake persona
-- `rake-v1.md` — Rake persona v1 with design notes
-- `post-opening-anecdote.md` — Opening anecdote: Daneel distinguishes questions from decisions (Reddit validation)
+- `../personas/rake.md` — Rake persona with design notes
+- `post-opening-anecdote.md` — Opening anecdote: Daneel distinguishes questions from decisions (Reddit validation, post-opening-anecdote.md)
 - `linkedin-teaser.md` — LinkedIn teaser post for Feb 27
 - `alignment-generator-comparison.md` — Comparison with interview-based alignment approach
 
@@ -533,9 +533,9 @@ alignment. Developed in ACT-TWO.md (post 3 material).
 ## Open Questions
 
 1. ~~Should we actually BUILD a poker persona and test it?~~ **Done.**
-   See `rake-v1.md`. **Sent to Bill's friend Feb 27 for real-world
+   See `../personas/rake.md`. **Sent to Bill's friend Feb 27 for real-world
    testing. He'll try it for a few days to a week and report back on
-   the open questions in rake-v1.md.**
+   the open questions in personas/rake.md.**
 2. How much academic research to include? The first post had one citation
    (MIT/Tongji). This could have many more, but the first post worked because
    it was personal and concrete. **Campbell/Jung material moved to ACT-TWO.md for post 3. Post 2
