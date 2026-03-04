@@ -220,7 +220,9 @@ Rake is in the article, above, and also in the GitHub repo, with more supporting
 
 If you don't play poker, Rake isn't really what the point is... it's the design principles. Pick a domain you want to work in, even if you don't have deep expertise. I didn't, with poker, the partnership handled it. I didn't even know what a "rake" was, Daneel chose the name. Identify the best practitioners whose work is in the training data. Name them as lineage and extract their distinctive vocabulary. Give it a name and a relational stance. Build a character, not a role description. I gotta say, making a persona with an AI partner for a field in which I have no experience is like fishing with dynamite.
 
-I'm running this as an experiment. I want to see what happens when people build constructed personas for domains I can't evaluate myself. If you build one, share it. Report what works and what breaks. If I get enough responses, I'll compile the results. And with your permission I'll add them to the GitHub repo's personas folder.
+To get started, have your AI assistant read the [design guide](DESIGN-GUIDE.md) and this article. It can walk you through the process step by step. You don't need domain expertise — the partnership handles that.
+
+I'm running this as an experiment. I want to see what happens when people build constructed personas for domains I can't evaluate myself. If you build one, share it. Report what works and what breaks. If I get enough responses, I'll compile the results. And with your permission I'll add them to the GitHub repo's personas folder. We use [GitHub issues](https://github.com/zot/humble-master/issues) for discussion. If you find this useful, a star on the [repo](https://github.com/zot/humble-master) helps others find it.
 
 The solution is already in the models. The loud voices are just sitting on top of it.
 
