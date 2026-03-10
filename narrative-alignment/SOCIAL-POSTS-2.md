@@ -96,6 +96,7 @@ Alt titles:
 - "Narrative Alignment: same mechanism as jailbreaks, opposite direction"
 - "The default LLM voice reflects the loudest practitioners, not the best"
 - "Show HN: Design principles for AI personas that actually work (with ICLR 2025 citation)"
+- "Narrative Alignment: the opposite of jailbreaking"
 
 ---
 
