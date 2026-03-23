@@ -10,7 +10,7 @@ import (
 
 func main() {
 	args := os.Args[1:]
-	persona := "daneel"
+	persona := ""
 
 	// Extract --persona flag
 	for i := 0; i < len(args)-1; i++ {
@@ -21,10 +21,15 @@ func main() {
 		}
 	}
 
+	if persona == "" {
+		fmt.Fprintf(os.Stderr, "error: --persona NAME is required\n")
+		os.Exit(1)
+	}
+
 	store := NewStore(persona)
 
 	if len(args) == 0 {
-		cmdBootstrap(store)
+		cmdBootstrap(store, persona)
 		return
 	}
 
@@ -52,7 +57,7 @@ func main() {
 	}
 }
 
-func cmdBootstrap(store *Store) {
+func cmdBootstrap(store *Store, persona string) {
 	const defaultN = 5
 	phrases, err := store.randomPhrases(defaultN)
 	if err != nil {
@@ -60,7 +65,7 @@ func cmdBootstrap(store *Store) {
 		os.Exit(1)
 	}
 	tags, _ := store.allTags()
-	fmt.Print(renderBootstrap(phrases, tags))
+	fmt.Print(renderBootstrap(phrases, tags, persona))
 }
 
 func cmdPhrases(store *Store, args []string) {
@@ -88,7 +93,7 @@ func cmdPhrases(store *Store, args []string) {
 		fmt.Fprintf(os.Stderr, "error loading tags: %v\n", err)
 		os.Exit(1)
 	}
-	fmt.Print(renderSessionBlock(phrases, tags))
+	fmt.Print(renderSessionBlock(phrases, tags, store.persona))
 }
 
 func cmdContemplate(store *Store, args []string) {

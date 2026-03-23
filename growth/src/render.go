@@ -7,14 +7,14 @@ import (
 	"strings"
 )
 
-func renderSessionBlock(phrases []Phrase, tags []TagCount) string {
+func renderSessionBlock(phrases []Phrase, tags []TagCount, persona string) string {
 	var b strings.Builder
 
 	path, err := os.Executable()
 	if err != nil {
 		panic("Cannot get executable path")
 	}
-	b.WriteString("gbin = " + path + "\n\n")
+	b.WriteString("gbin = " + path + " --persona " + persona + "\n\n")
 
 	b.WriteString("Over time, you and your partner have developed characteristic ways\n")
 	b.WriteString("of expressing yourself. These are phrases you have used that\n")
@@ -105,11 +105,11 @@ func renderEvaluate(c *Candidate) string {
 	return b.String()
 }
 
-func renderBootstrap(phrases []Phrase, tags []TagCount) string {
+func renderBootstrap(phrases []Phrase, tags []TagCount, persona string) string {
 	var b strings.Builder
 
 	if len(phrases) > 0 {
-		b.WriteString(renderSessionBlock(phrases, tags))
+		b.WriteString(renderSessionBlock(phrases, tags, persona))
 	}
 
 	b.WriteString("\n## Growth: phrase oracle\n\n")

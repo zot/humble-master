@@ -46,7 +46,7 @@ func NewStore(persona string) *Store {
 }
 
 func (s *Store) jsonlPath() string {
-	return filepath.Join(s.baseDir, "PERSONA.jsonl")
+	return filepath.Join(s.baseDir, s.persona+".jsonl")
 }
 
 func (s *Store) candidatePath() string {
