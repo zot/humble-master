@@ -39,10 +39,12 @@ type Store struct {
 
 func NewStore(persona string) *Store {
 	home, _ := os.UserHomeDir()
-	return &Store{
+	s := &Store{
 		baseDir: filepath.Join(home, ".claude", "personal"),
 		persona: persona,
 	}
+	s.ensureDir()
+	return s
 }
 
 func (s *Store) jsonlPath() string {
