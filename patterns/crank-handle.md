@@ -5,11 +5,8 @@ summary: A tool outputs a self-contained prompt telling the AI what to do next. 
 ---
 
 @learned: Daneel (the persona) coined the term "crank handle" during
-a design session with Bill.
-@connection: minispec phase commands = crank handle pattern. Each
-`minispec phase <step>` validates one workflow phase and tells the
-AI what to fix or do next. The sequencing intelligence lives in the
-Go tool, not the model.
+a design session with Bill.  
+@connection: minispec phase commands = crank handle pattern. Each `minispec phase <step>` validates one workflow phase and tells the AI what to fix or do next. The sequencing intelligence lives in the Go tool, not the model.  
 
 # Crank Handle
 

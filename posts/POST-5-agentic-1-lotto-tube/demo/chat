@@ -1,0 +1,7 @@
+#!/bin/bash
+# Human side: send MESSAGE to the agent and wait for its reply.
+# Usage: chat "your message"
+cd "$(dirname "$0")"
+./setup -q
+echo "$1" > user
+cat agent

@@ -1,0 +1,15 @@
+#!/bin/bash
+# Create the two named pipes used for user→agent and agent→user messaging.
+cd "$(dirname "$0")"
+[ -p user ]  || mkfifo user
+[ -p agent ] || mkfifo agent
+
+if [ "$*" != -q ]; then
+    cat <<EOF
+Pipes ready in $(pwd).
+
+Open two terminals:
+  Terminal 1 (the agent): ./listen
+  Terminal 2 (the human): ./chat "hello"
+EOF
+fi

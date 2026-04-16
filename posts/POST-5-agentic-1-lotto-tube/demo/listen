@@ -1,0 +1,29 @@
+#!/bin/bash
+# Agent side: deliver an optional prior response, then block until the
+# next user message arrives. Outputs a crank-handle instructing the AI
+# on what to do next.
+# Usage:
+#   listen                    # first call: wait for first user message
+#   listen "your response"    # subsequent calls: send response, then wait
+cd "$(dirname "$0")"
+
+./setup -q
+if [ $# -gt 0 ]; then
+    echo "$1" > agent
+fi
+
+msg=$(cat user)
+
+cat <<EOF
+The user said
+```
+$msg
+```
+
+Act on the user's message and then respond to the user by running:
+
+    ./listen "your response here"
+
+That single command delivers your response and waits for the next
+message. Do not exit the loop; keep calling listen after each reply.
+EOF
