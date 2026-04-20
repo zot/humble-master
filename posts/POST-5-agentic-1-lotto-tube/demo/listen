@@ -16,9 +16,9 @@ msg=$(cat user)
 
 cat <<EOF
 The user said
-```
+\`\`\`
 $msg
-```
+\`\`\`
 
 Act on the user's message and then respond to the user by running:
 
