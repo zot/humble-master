@@ -39,13 +39,18 @@ Agent                  Lotto Tube              Application
 - **Blocking, not polling.** The command blocks on the server
   side (long-poll, channel read, file watch). No sleep loops,
   no wasted cycles.
-- **One item per invocation.** The command returns one event (or
-  a batch), then exits. The agent decides what to do before
+- **One *event* per invocation.** The command returns one event
+  (or a batch), then exits. The agent decides what to do before
   asking for the next one. This is deliberate — it gives the
   agent a decision point between every item.
-- **Timeout exits cleanly.** On timeout (no events within the
-  window), the command exits 0 with an empty result. The agent
-  restarts it. No error, no retry logic.
+- **The agent's loop is event-to-event, never poll-to-poll.**
+  Server-side long-poll timeouts, transient connection failures,
+  port changes, and other infrastructure noise are absorbed
+  *inside* the command (see Internal Resilience below). The agent
+  only ever sees a real event on stdout, or a catastrophic-exit
+  code (e.g. 52) meaning "the application is gone for good and
+  you should stop." It never re-runs the command on an
+  empty/timeout result, because empty results never reach it.
 - **JSON on stdout.** The event is structured data. The agent
   parses it and dispatches.
 
@@ -56,8 +61,11 @@ Agent                  Lotto Tube              Application
 Bash({cmd} event, run_in_background=true)
 
 # Returns JSON: [{"app":"app-console","event":"select","name":"contacts"}]
-# Or empty array [] on timeout
-# Or exit code 52 if server restarted
+#   when a real event arrives.
+# Returns exit code 52 if the application has shut down for good
+#   (agent stops looping).
+# It does NOT return an empty array on timeout — internal long-poll
+#   timeouts re-poll silently inside the command.
 ```
 
 The agent reads the output, handles the event (which may involve
@@ -89,13 +97,22 @@ while true; do
         port=$(cat "$dir/mcp-port")
         continue
     fi
+    # Empty body, status 0 = clean long-poll timeout → loop, don't exit
 done
 ```
 
-Connection failures, port changes, and transient server states
-loop silently inside the tube. The agent never sees them — it
-just gets a clean event or a timeout. The tube absorbs
-infrastructure noise.
+Note the empty/timeout case: the loop neither breaks nor errors —
+it falls through and re-polls. Three classes of noise stay inside
+the tube:
+
+1. **Long-poll timeout** — server replied with no events; re-poll.
+2. **Connection failure** — server restarting or briefly
+   unreachable; sleep, re-read port, re-poll.
+3. **Server reconfiguration** — port changed; re-read port,
+   re-poll.
+
+The agent never sees any of these. It only ever wakes for a real
+event, or for a hard exit code that means "stop looping."
 
 ## Why Not a Persistent Connection?
 
@@ -117,12 +134,19 @@ connection between events because:
 
 When building a lotto tube:
 
-- [ ] Command blocks server-side (long-poll or channel), not client-side (sleep)
-- [ ] Returns structured JSON on stdout
-- [ ] Exits 0 on timeout with empty result
-- [ ] Distinct exit code for "server restarted" (agent should restart loop)
+- [ ] Command blocks server-side (long-poll or channel), not
+      client-side (sleep)
+- [ ] Returns structured JSON on stdout — only when a real event
+      arrives
+- [ ] Server-side long-poll timeout absorbed *inside* the command
+      (re-poll silently); the agent never sees an empty result
+- [ ] Connection failures absorbed inside the command (sleep,
+      re-read port, retry); the agent never sees them
+- [ ] Distinct catastrophic-exit code (e.g. 52) for "application is
+      shut down for good" so the agent stops looping
 - [ ] Only one listener at a time (enforced server-side)
-- [ ] Timeout long enough to avoid churn, short enough to detect server death (~120s)
+- [ ] Server-side long-poll timeout long enough to avoid churn,
+      short enough to detect server death (~120s)
 
 ## Relationship to Sidecar Agent
 
