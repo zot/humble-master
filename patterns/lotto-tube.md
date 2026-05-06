@@ -51,8 +51,14 @@ Agent                  Lotto Tube              Application
   code (e.g. 52) meaning "the application is gone for good and
   you should stop." It never re-runs the command on an
   empty/timeout result, because empty results never reach it.
-- **JSON on stdout.** The event is structured data. The agent
-  parses it and dispatches.
+- **Structured payload on stdout.** The event is structured
+  data. JSON is fine when the consumer is a script that
+  programmatically dispatches; **markdown is preferred when an
+  AI agent itself reads the output** (see Baby Food). The
+  newsletter `wait` / `pull` commands emit a markdown work-item
+  block — runId, kind, tab list as bullets — because the agent
+  is the consumer. A `tee` to JSON for an automation hook is a
+  separate concern.
 
 ## Prototype: `ark ui event`
 

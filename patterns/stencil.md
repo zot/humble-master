@@ -57,13 +57,21 @@ interface:
   the format, checks off requirements, queries by status. Opus
   provides intent, the program manages the document.
 
-## Relationship to crank-handle
+## Relationship to other patterns
 
-The crank-handle says: "you know what you want, I'll handle the
-sequencing." The stencil says: "you don't even know you're making
-a mess, so I won't let you touch it." Both externalize intelligence
-into the tool. The crank-handle externalizes *sequencing*. The
-stencil externalizes *format awareness*.
+- **Crank-Handle** — the crank-handle says: "you know what you
+  want, I'll handle the sequencing." The stencil says: "you don't
+  even know you're making a mess, so I won't let you touch it."
+  Both externalize intelligence into the tool. Crank-handle
+  externalizes *sequencing*; stencil externalizes *format
+  awareness*.
+- **Baby Food** — the symmetric input-side pattern. Stencil is
+  what the agent writes (CLI parses); Baby Food is what the agent
+  reads (CLI renders). Both keep the agent on the markdown side
+  of every boundary.
+- **Fumble Log** — Stencil's longitudinal diagnostic. Every
+  parse failure should be logged with its input so the format
+  can be tightened from evidence rather than guesswork.
 
 ## When to use
 

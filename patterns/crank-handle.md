@@ -4,8 +4,7 @@ tags: agentic, state-machine, weak-models, externalized-intelligence
 summary: A tool outputs a self-contained prompt telling the AI what to do next. Sequencing intelligence lives in the tool, not the model. Designed for weak models that can execute but not plan.
 ---
 
-@learned: Daneel (the persona) coined the term "crank handle" during
-a design session with Bill.  
+@learned: Daneel (the persona) coined the term "crank handle" during a design session with Bill.  
 @connection: minispec phase commands = crank handle pattern. Each `minispec phase <step>` validates one workflow phase and tells the AI what to fix or do next. The sequencing intelligence lives in the Go tool, not the model.  
 
 # Crank Handle
@@ -44,6 +43,9 @@ Each output is:
 - **Unambiguous** — one clear action, not a menu of options
 - **Terminal or continuing** — either "do this and you're done"
   or "do this and run me again"
+- **Markdown** — see Baby Food. The crank-handle's prompt is the
+  agent's input; if the prompt embeds upstream data, that data
+  is rendered as markdown, not pasted as JSON.
 
 ## When to use it
 
