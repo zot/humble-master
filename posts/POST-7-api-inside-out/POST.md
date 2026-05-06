@@ -1,5 +1,5 @@
 # Turn API code inside-out and run it inside Claude Code instead
-![diagrams comparing api programs vs claude-code](inside-out-sketch.md)
+![diagrams comparing api programs vs claude-code](diagram.png) 
 
 Spike Milligan built an [agentic newsletter pipeline](https://www.linkedin.com/posts/spikefu_github-spikefuagentic-newsletter-activity-7456540676848246784-XK2i) 2 weeks ago. You open the tabs you've been meaning to read, click Generate, and a few minutes later there's a publishable issue with research, links, and citations. It's a clean demonstration of what these systems are good at.
 
