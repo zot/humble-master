@@ -1,4 +1,6 @@
 > **[About this repository](ABOUT.md)** — what's here, how to use the personas, and the full post series.
+>
+> **[Patterns](patterns/)** — design and engineering patterns from this work, including "crank handle," which Daneel named mid-session.
 
 # How a 70-Year-Old Robot Fixed My Snarky Claude
 

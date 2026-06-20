@@ -29,6 +29,16 @@ The repo includes the full design journey, not just the finished personas:
 - `narrative-alignment/` — Research, supporting evidence, and working drafts
 - `IDEAS.md` — Found character candidates and future directions
 
+## Patterns
+
+Working with Daneel produced more than personas. The [`patterns/`](patterns/) directory collects design and engineering patterns that emerged from the broader work. Most concern building reliable agentic tooling, especially for weaker models; a couple are about the partnership itself. A few to start with:
+
+- **[Context Sharing Over Directives](patterns/context-sharing.md)** — sharing your intentions and observations gives the AI what it needs to decide well, and beats both directives and the pure Socratic method.
+- **[Crank Handle](patterns/crank-handle.md)** — a tool emits a self-contained prompt telling the AI what to do next, so the sequencing intelligence lives in the tool, not the model. Daneel coined the name mid-session.
+- **[Baby Food](patterns/baby-food.md)** — agent-facing inputs are markdown views of structured data, so the model never has to parse JSON.
+
+Ten in all.
+
 ## The Experiment
 
 Build a persona for your domain using the [design principles](posts/POST-2.md#the-design-principles). Report what works and what breaks. If you build one, open an issue or a PR — with your permission, contributed personas go in `personas/`.
